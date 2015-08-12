@@ -6,15 +6,43 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title></title>
+        <title>Life4u Demo</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
+        <link href='http://fonts.googleapis.com/css?family=Pontano+Sans' rel='stylesheet' type='text/css'>
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
+        <div class="jumbotron">
+            <div class="animated fadeIn centered pre-pulse-panel">
+                <img class="logo" src="img/logo-04.png">
+                <p>Demostración pulsómetro</p>
+                <div class="waiting-pulse">
+                    <div class="circle spin">
+                    </div>
+                    <div class="heart">
+                    </div>
+                </div>
+                <p class="waiting-message">Esperando señal de pulso</p>
+            </div>
+            <div class="animated fadeIn centered pulse-panel">
+                <div class="col-md-6">
+                    <div>
+                        <p class="value">00.0</p>
+                        <p class="variable"> SpO2</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div>
+                        <p class="value">00.0</p>
+                        <p class="variable">PRbpm</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
         <script src="js/vendor/bootstrap.min.js"></script>
